@@ -22,3 +22,15 @@ body {
     justify-content: center;
     border: 2px solid beige;
 }
+
+#rainbowbutton {
+    background: conic-gradient(
+        red,
+        orange,
+        yellow,
+        lightgreen,
+        blue,
+        purple,
+        red
+    );
+}
