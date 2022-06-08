@@ -37,6 +37,21 @@ function makeGrid(size) {
     }
 }
 
+let salaries = {
+    John: 69,
+    Ann: 1,
+    Pete: 1
+  }
+
+let sumr = function(obj) {
+    let sum = 0;
+    for (key in obj) {
+        sum+= obj[key];
+    }
+    return sum;
+}
+
+
 // function colorSelector() {
 
 // }

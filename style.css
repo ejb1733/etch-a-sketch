@@ -1,5 +1,5 @@
 #prompt {
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     margin-top: 2%;
     padding: 8px;
     width: 10%;
@@ -24,6 +24,9 @@ body {
 }
 
 #rainbowbutton {
+    margin-top: 12px;
+    height: 125px;
+    width: 125px;
     background: conic-gradient(
         red,
         orange,
@@ -33,4 +36,6 @@ body {
         purple,
         red
     );
+    border-radius: 50%;
+    border: 20px double beige;
 }
